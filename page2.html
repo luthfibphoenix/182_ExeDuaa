@@ -8,18 +8,49 @@
 </head>
 <body>
     <div class="container">
-        <h1>Halaman 2</h1>
-        <form id="Apakah Kalian Tau Eazy-E">
-            <label for="date">Tanggal:</label>
-            <input type="date" id="date" name="date">
-
-            <label for="dropdown">Jawaban:</label>
-            <select id="dropdown" name="dropdown">
-                <option value="option1">Ya</option>
-                <option value="option2">Tidak Tau</option>
-                <option value="option3">Skip aja bg</option>
+        <h1>Page 2</h1>
+        <form id="survey-form">
+            <!-- Text Input -->
+            <label for="text-input">Text:</label>
+            <input type="text" id="text-input" name="text-input" class="form-control">
+            
+            <!-- Date Input -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" class="form-control">
+            
+            <!-- Dropdown -->
+            <label for="dropdown">Select an option:</label>
+            <select id="dropdown" name="dropdown" class="form-control">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
             </select>
+            
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Add text:</legend>
+                <div>
+                    <input type="radio" id="radio1" name="radio-group" value="1">
+                    <label for="radio1">Add text 1</label>
+                </div>
+                <div>
+                    <input type="radio" id="radio2" name="radio-group" value="2">
+                    <label for="radio2">Add text 2</label>
+                </div>
+                <div>
+                    <input type="radio" id="radio3" name="radio-group" value="3">
+                    <label for="radio3">Add text 3</label>
+                </div>
+            </fieldset>
+
+            <!-- Textareas -->
+            <textarea id="textarea1" name="textarea1" rows="4" cols="50" class="form-control"></textarea>
+            <textarea id="textarea2" name="textarea2" rows="4" cols="50" class="form-control"></textarea>
+            
+            <button type="button" onclick="submitForm()">Submit</button>
         </form>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
