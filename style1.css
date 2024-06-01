@@ -24,12 +24,6 @@ body {
     margin: 20px 0;
 }
 
-.image-container img {
-    width: 100%;
-    max-width: 100px;
-    margin: 20px 0;
-}
-
 button {
     padding: 10px 20px;
     border: none;
