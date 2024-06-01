@@ -1,3 +1,3 @@
 function nextpage() {
-    window.location.href = 'page2.html';
+    window.location.href = "page2.html";
 }
