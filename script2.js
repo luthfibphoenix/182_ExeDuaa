@@ -1,5 +1,5 @@
 function previouspage() {
-    window.location.href = "page1.html";
+    window.location.href = "index.html";
 }
 function submitForm() {
     alert('Form submitted');
